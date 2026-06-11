@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-image: url(LuauBackground.png);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 10px 20px;
+}
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 5px 5px;
+}
+
+.opis a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 125px;
+    align-items: center;
+    padding: 3px 80px;
+    border-radius: 2px;
+    transition: 0.3s;
+    background-color: #eac15080;
+    margin-bottom: 1px;
+    width: 400px;
+}
+
+.opis a:hover {
+    color: rgb(255, 191, 0);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu a:hover {
+    color: rgb(255, 191, 0);
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    text-align: left;
+    margin-left: 1px;
+    margin-top: -4px;
+    opacity: 0.2;
+}
+
+
+/*.t1 {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 65px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.texto {
+    margin-left: 45px;
+    width: 470px;
+    min-height: 260px;
+    font-size: 15px;
+    line-height: 1.0;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    transition: 0.3s;
+    background-color: rgb(227, 215, 199);
+}
+
+.t2 {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 65px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.texto2 {
+    margin-left: 150px;
+    width: 470px;
+    min-height: 260px;
+    font-size: 15px;
+    line-height: 1.0;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: line;
+    justify-content: flex;
+    transition: 0.3s;
+    background-color: rgb(227, 215, 199);
+} */
+
+.caixas {
+    display: flex;
+    gap: 80px;
+    /* espaço entre as caixas */
+    margin-left: 70px;
+    margin-top: 65px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.t1,
+.t2 {
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    margin: 0 0 15px 0;
+    /* espaço entre título e caixa */
+}
+
+.texto,
+.texto2 {
+    width: 470px;
+    min-height: 260px;
+    font-size: 15px;
+    line-height: 1.0;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    background-color: rgb(227, 215, 199);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
