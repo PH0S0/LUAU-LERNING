@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-image: url(LuauBackground.png);
+    backdrop-filter: blur(8px);
+}
+
+
+/* NAVBAR PRINCIPAL */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 10px 20px;
+}
+
+
+/* LOGOS */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+
+/* MENU SUPERIOR */
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu a:hover {
+    color: rgb(255, 191, 0);
+}
+
+
+/* SEGUNDA NAVBAR */
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    padding: 5px 0;
+}
+
+
+/* BOTÕES */
+
+.opis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 160px;
+}
+
+.opis a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 80px;
+    border-radius: 2px;
+    background-color: #eac15080;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.opis a:hover {
+    color: rgb(255, 191, 0);
+}
+
+
+/* FRASE */
+
+p {
+    text-align: left;
+    margin-left: 1px;
+    margin-top: -4px;
+    opacity: 0.2;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    background-color: #121212;
+    color: white;
+    padding: 25px 140px;
+    margin-top: 100px;
+}
+
+.fbox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* TEXTO DOS INTEGRANTES */
+
+.text {
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+
+/* CULTO À CIÊNCIA */
+
+.text2 {
+    font-size: 10px;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text h2,
+.text2 h2 {
+    margin: 0;
+}
+
+.text2 img {
+    width: 70px;
+    margin-bottom: 10px;
+}
